@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Sanjog Shrestha">
+    <meta property="og:description" content="A portfolio website of a software developer.">
+    <meta property="og:image" content="#">
+    <title>Sanjog Shrestha</title>
+    <link rel="icon" type="image/png" href="#">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Sanjog Shrestha</div>
+        <nav class="nav">
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <img src="#" alt="Profile Picture" title="Sanjog Shrestha">
+            <h1>Hey, I'm Sanjog Shrestha</h1>
+            <p>Web developer</p>
+        </section>
+        <section class="about" id="about">
+            <h2>About Me</h2>
+            <p>I'm a web developer with a passion for creating smooth, clean, responsive website.
+                I specialize in HTML, CSS and JavaScript. I also have strong foundation in Java, Python and MySQL. 
+                I love to learn new technologies and improve my skills. I'm currently learning React.js and Node.js.
+                In my free time, I enjoy reading tech blogs, watching tech videos, and exploring new places.
+            </p>
+        </section>
+        <section class="blogs">
+            <div class="blogs-card">
+                <div class="card">
+                    <img src="#" alt="Java" title="Java" alt="Java">
+                    <h3>Java</h3>
+                    <p>Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language which can run on all platforms that support Java without the need for recompilation.</p>
+                    <button>Read More</button>
+                </div>
+
+                <div class="card">
+                    <img src="#" alt="Python" title="Python" alt="Python">
+                    <h3>Python</h3>
+                    <p>Python is a high-level, general-purpose programming language. It supports multiple programming paradigms, including structured, object-oriented and functional programming. Python consistently ranks as one of the most popular programming languages, and is widely across the world.</p>
+                    <button>Read More</button>
+                </div>
+
+                <div class="card">
+                    <img src="#" alt="JavaScript" title="JavaScript" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                    <p>JavaScript (JS) is a programming language and core technology of the web platform, alongside HTML and CSS. Ninety-nine percent of websites on the World Wide Web use JavaScript on the client side for webpage behavior. Web browsers have a dedicated JavaScript engine that executes the client code.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="projects-grid">
+                <div class=" primary-card projects-card">
+                    <img src="#" alt="Project Image">
+                    <h3>Quizzy</h3>
+                    <p>Quizzy is a responsive and user-friendly quiz platform offering an immersive trivia experience. 
+                     With an intuitive design and smooth navigation, users can test their knowledge, compete with others, and track their progress.</p>
+                    <div class="tech-tag-list">
+                        <div>MongoDB</div>
+                        <div>Express.js</div>
+                        <div>JavaScript</div>
+                        <div>React.js</div>
+                        <div>Node.js</div>
+                    </div>
+                    <a href="#">Visit</a>
+                </div>
+                <div class="projects-card">
+                    <img src="#" alt="Project Image">
+                    <h3>New York City 311 calline analysis</h3>
+                    <p>The primary objective of the analysis is to explore and understand the patterns in 311 service requests using data wrangling techniques. 
+                        The goal is to clean, transform, and organize the raw data to uncover trends or recurring issues using differnt Python libraries like NumPy, Pandas etc.</p>
+                    <a href="#">Visit</a>
+                </div>
+                <div class="projects-card">
+                    <img src="#" alt="Project Image">
+                    <h3>The Professor's Plate</h3>
+                    <p>It is a web project focused on ordering and delivering from a specific restaurant. 
+                    The website was created to provide seamless, user-friendly interaction using HTML, CSS, JavaScript and APIs of Java EE like JSP, Servlets, JSTL and JDBC.</p>
+                    <a href="#">Visit</a>
+                </div>
+                <div class="projects-card">
+                    <img src="/images/learn-css/meal.png" alt="Project Image">
+                    <h3>2048 Game</h3>
+                    <p>2048 is a simple yet addictive puzzle game where players combine matching tiles to reach the number 2048.</p>
+                    <a href="#">Visit</a>
+                </div>
+                <div class="projects-card">
+                    <img src="#" alt="Project Image">
+                    <h3>Simple Calculator</h3>
+                    <p>A simple calculator built with Python that performs basic arithmetic operations</p>
+                    <a href="#">Visit</a>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-form-container">
+                <h2>Contact Me</h2>
+                <form class="contact-form">
+                    <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your Name"
+                            />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="your@email.com"
+                            />
+                    </div>
+                    </div>
+
+                    <div class="form-group">
+                    <label for="reason">Contact Reason</label>
+                    <select id="reason" name="reason">
+                        <option value="work">Networking</option>
+                        <option value="work">Freelance</option>
+                        <option value="work">Collaboration</option>
+                        <option value="support">Mentorship</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                    </div>
+
+                    <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="4"
+                        placeholder="Enter your message here."
+                        style="height: 100px"
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-text">Made with <span class="heart">❤️</span> by Sanjog</p>
+        <div class="footer-logos">
+            <a href="#" target="_blank">
+                <img src="#" alt="GitHub" />
+            </a>
+            <a href="#" target="_blank">
+                <img src="#" alt="LinkedIn" />
+            </a>
+            <a href="#">
+                <img src="#" alt="Gmail" />
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
